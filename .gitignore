@@ -1,0 +1,51 @@
+# Real-person validation data and credentials must never be committed.
+validation/
+**/validation/hairline/
+.alexendra/
+backend/data/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Python environments, bytecode, and test/tool caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript dependencies and generated builds
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Browser test artifacts
+browser-tests/results/
+browser-tests/test-results/
+browser-tests/playwright-report/
+browser-tests/cache/
+
+# Generated analysis output
+graphify-out/
+
+# Logs, backups, and OS metadata
+*.log
+*.bak
+*.bak.*
+*.bak-*
+.DS_Store
+Thumbs.db

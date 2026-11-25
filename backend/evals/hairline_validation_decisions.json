@@ -1,0 +1,7 @@
+{
+  "_README": "HUMAN-OWNED decisions. A decision counts only when value is true AND decided_by AND decided_on are filled in by the person who made it. Engineering must not set these. Each gate reads this file; a bare 'true' is ignored.",
+  "population_confirmed_by_owner":   {"value": false, "decided_by": "", "decided_on": "", "note": "Owner confirms docs/HAIRLINE_VALIDATION_POPULATION.md, including decision D1 (who the hair module is validated for)."},
+  "acceptance_thresholds_agreed":    {"value": false, "decided_by": "", "decided_on": "", "note": "Real-photo acceptance thresholds in docs/HAIRLINE_ACCEPTANCE_CRITERIA.md section B agreed and signed BEFORE the first run. None are defined today."},
+  "second_annotator_available":      {"value": false, "decided_by": "", "decided_on": "", "note": "A second, independent human annotator has been identified and briefed with docs/HAIRLINE_ANNOTATION_SOP.md."},
+  "adjudication_procedure_defined":  {"value": false, "decided_by": "", "decided_on": "", "note": "Who adjudicates A/B disagreements, and the consensus rule (including how a consensus polyline is formed). NOT DEFINED today."}
+}

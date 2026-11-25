@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f3ee;
+  --surface: #ffffff;
+  --foreground: #1b1a17;
+  --muted: #6f6a61;
+  --line: #e4ded3;
+  --accent: #b5652f;
+  --accent-soft: #f3e4d6;
+  --good: #3f7d58;
+  --warn: #b58a2f;
+  --bad: #b5452f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-fraunces);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-xl border border-line bg-surface px-4 py-2.5 outline-none focus:border-accent;
+  }
+  .chip {
+    @apply rounded-full border border-line bg-surface px-4 py-2 text-sm hover:border-accent;
+  }
+  .chip-on {
+    @apply border-accent bg-accent-soft text-accent;
+  }
+  .btn-primary {
+    @apply rounded-full bg-foreground px-7 py-3 font-medium text-background hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-30;
+  }
+  .btn-secondary {
+    @apply rounded-full border border-line bg-surface px-6 py-3 font-medium hover:border-foreground;
+  }
+}
+
+@media print {
+  /* Zero page margin hides the browser's URL/date header and footer; body padding restores the margin. */
+  @page { margin: 0; size: A4; }
+  html, body { background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { padding: 14mm 12mm; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; animation: none !important; transition: none !important; }
+  .no-print { display: none !important; }
+  /* Don't cut cards, figures or the before/after slider across pages. */
+  article, figure, section > div, li, table, tr, .break-avoid { break-inside: avoid; page-break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
+  .break-avoid img { max-height: 200mm; width: auto; margin: 0 auto; }
+}

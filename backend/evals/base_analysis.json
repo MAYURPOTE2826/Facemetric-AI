@@ -1,0 +1,665 @@
+{
+ "metrics": [
+  {
+   "key": "canthal_tilt",
+   "label": "Canthal tilt",
+   "category": "eyes",
+   "value": 2.173,
+   "unit": "\u00b0",
+   "ideal": 5.0,
+   "tolerance": 4.0,
+   "score": 89.5,
+   "status": "ideal",
+   "direction": "ok",
+   "description": "Angle of the line from inner to outer eye corner. Slight positive (upward) tilt is commonly considered attractive."
+  },
+  {
+   "key": "eye_aspect",
+   "label": "Eye openness",
+   "category": "eyes",
+   "value": 0.369,
+   "unit": "ratio",
+   "ideal": 0.3,
+   "tolerance": 0.06,
+   "score": 74.7,
+   "status": "near",
+   "direction": "high",
+   "description": "Eye height divided by eye width."
+  },
+  {
+   "key": "intercanthal_eye",
+   "label": "Eye spacing (rule of fifths)",
+   "category": "eyes",
+   "value": 1.251,
+   "unit": "ratio",
+   "ideal": 1.0,
+   "tolerance": 0.12,
+   "score": 37.9,
+   "status": "outside",
+   "direction": "high",
+   "description": "Gap between the eyes divided by one eye's width. Classical ideal is 1.0."
+  },
+  {
+   "key": "esr",
+   "label": "Eye separation ratio",
+   "category": "proportions",
+   "value": 0.42,
+   "unit": "ratio",
+   "ideal": 0.46,
+   "tolerance": 0.025,
+   "score": 57.1,
+   "status": "near",
+   "direction": "low",
+   "description": "Pupil distance divided by cheekbone width. ~0.46 was the most attractive value in perception studies (Pallett 2010)."
+  },
+  {
+   "key": "fwhr",
+   "label": "Facial width-to-height ratio",
+   "category": "proportions",
+   "value": 1.778,
+   "unit": "ratio",
+   "ideal": 1.9,
+   "tolerance": 0.15,
+   "score": 86.3,
+   "status": "ideal",
+   "direction": "ok",
+   "description": "Cheekbone width divided by eyelid-to-upper-lip height."
+  },
+  {
+   "key": "midface_ratio",
+   "label": "Midface ratio",
+   "category": "proportions",
+   "value": 0.8,
+   "unit": "ratio",
+   "ideal": 1.0,
+   "tolerance": 0.08,
+   "score": 25.0,
+   "status": "outside",
+   "direction": "low",
+   "description": "Pupil distance divided by pupil-to-upper-lip height. ~1.0 reads as a compact, balanced midface."
+  },
+  {
+   "key": "thirds_lower_mid",
+   "label": "Facial thirds (lower : middle)",
+   "category": "proportions",
+   "value": 0.911,
+   "unit": "ratio",
+   "ideal": 1.0,
+   "tolerance": 0.1,
+   "score": 83.9,
+   "status": "ideal",
+   "direction": "ok",
+   "description": "Subnasale-to-chin height vs brow-to-subnasale height. Equal thirds is the classical ideal."
+  },
+  {
+   "key": "lower_third_split",
+   "label": "Lower-third split",
+   "category": "lips",
+   "value": 0.568,
+   "unit": "ratio",
+   "ideal": 0.5,
+   "tolerance": 0.07,
+   "score": 80.8,
+   "status": "ideal",
+   "direction": "ok",
+   "description": "Nose-to-mouth vs mouth-to-chin height. Ideal is about 1:2."
+  },
+  {
+   "key": "nose_intercanthal",
+   "label": "Nose width vs eye gap",
+   "category": "nose",
+   "value": 1.322,
+   "unit": "ratio",
+   "ideal": 1.15,
+   "tolerance": 0.15,
+   "score": 74.6,
+   "status": "near",
+   "direction": "high",
+   "description": "Nose (alar) width divided by the gap between the eyes. The classical canon is 1.0; ~1.15 is typical for South Asian faces."
+  },
+  {
+   "key": "mouth_nose",
+   "label": "Mouth width vs nose width",
+   "category": "lips",
+   "value": 1.105,
+   "unit": "ratio",
+   "ideal": 1.4,
+   "tolerance": 0.15,
+   "score": 42.3,
+   "status": "near",
+   "direction": "low",
+   "description": "Mouth width divided by nose width. The classical canon is 1.5-1.6; ~1.35-1.4 is typical for Indian faces."
+  },
+  {
+   "key": "lip_ratio",
+   "label": "Lip ratio (lower : upper)",
+   "category": "lips",
+   "value": 1.36,
+   "unit": "ratio",
+   "ideal": 1.6,
+   "tolerance": 0.35,
+   "score": 90.1,
+   "status": "ideal",
+   "direction": "ok",
+   "description": "Lower lip height vs upper lip height. Ideal ~1.6."
+  },
+  {
+   "key": "jaw_zygo",
+   "label": "Jaw-to-cheekbone width",
+   "category": "jaw",
+   "value": 0.826,
+   "unit": "ratio",
+   "ideal": 0.86,
+   "tolerance": 0.05,
+   "score": 90.1,
+   "status": "ideal",
+   "direction": "ok",
+   "description": "Jaw width divided by cheekbone width."
+  },
+  {
+   "key": "symmetry",
+   "label": "Facial symmetry",
+   "category": "symmetry",
+   "value": 3.85,
+   "unit": "% deviation",
+   "ideal": 0.0,
+   "tolerance": 1.5,
+   "score": 84.6,
+   "status": "outside",
+   "direction": "high",
+   "description": "Average left/right landmark mismatch as a percentage of face width. Everyone is a little asymmetric; under 2% is typical."
+  }
+ ],
+ "category_scores": {
+  "eyes": 67.4,
+  "proportions": 63.1,
+  "lips": 71.1,
+  "nose": 74.6,
+  "jaw": 90.1,
+  "symmetry": 84.6
+ },
+ "harmony_score": 75.1,
+ "quality": {
+  "ok": true,
+  "issues": [
+   {
+    "level": "warning",
+    "code": "uneven_light",
+    "message": "One side of your face is in shadow. Face the light source straight on - uneven light affects skin and symmetry readings."
+   },
+   {
+    "level": "warning",
+    "code": "slightly_turned",
+    "message": "Head is slightly turned - symmetry and width measurements may be less accurate."
+   }
+  ],
+  "pose": {
+   "pitch": -0.5,
+   "yaw": 11.2,
+   "roll": -1.0
+  },
+  "sharpness": 183.0,
+  "brightness": 109.5,
+  "lighting": {
+   "side_diff": 0.296,
+   "shadow_frac": 0.096,
+   "clipped_frac": 0.0,
+   "skin_L": 70.196
+  },
+  "texture_ratio": 0.167,
+  "camera": null
+ },
+ "skin": {
+  "available": true,
+  "experimental": true,
+  "score": 89.5,
+  "concerns": [
+   {
+    "key": "texture",
+    "label": "Texture & pores",
+    "score": 48.7,
+    "severity": "high",
+    "detail": "Fine surface texture on the cheeks (pores, roughness)."
+   },
+   {
+    "key": "wrinkles",
+    "label": "Fine lines & wrinkles",
+    "score": 50.1,
+    "severity": "moderate",
+    "detail": "Line density 10.0% across forehead, eye area and smile lines."
+   },
+   {
+    "key": "dark_spots",
+    "label": "Dark spots & pigmentation",
+    "score": 96.0,
+    "severity": "low",
+    "detail": "1 dark spot(s) detected."
+   },
+   {
+    "key": "blemishes",
+    "label": "Blemishes & breakouts",
+    "score": 100.0,
+    "severity": "low",
+    "detail": "0 red spot(s) detected - acne grade: Clear (Hayashi scale, 0 on the more affected side)."
+   },
+   {
+    "key": "acne_marks",
+    "label": "Acne marks",
+    "score": 100.0,
+    "severity": "low",
+    "detail": "0 mark(s) left by past breakouts."
+   },
+   {
+    "key": "pigmentation",
+    "label": "Pigmentation patches",
+    "score": 100.0,
+    "severity": "low",
+    "detail": "0.0% of visible skin has darker patches (extent score 0.0 of 24, modelled on the mMASI melasma scale - not a diagnosis)."
+   },
+   {
+    "key": "uneven_tone",
+    "label": "Uneven tone & tan",
+    "score": 100.0,
+    "severity": "low",
+    "detail": "Skin colour differs by 0.0 units between forehead, nose, cheeks and chin - often from sun exposure (tanning)."
+   },
+   {
+    "key": "dark_circles",
+    "label": "Dark circles",
+    "score": 100.0,
+    "severity": "low",
+    "detail": "Under-eyes are 0% darker than your cheeks (grade 0 of 3)."
+   },
+   {
+    "key": "redness",
+    "label": "Redness",
+    "score": 100.0,
+    "severity": "low",
+    "detail": "0% of skin is noticeably redder than your baseline."
+   },
+   {
+    "key": "shine",
+    "label": "Shine / oiliness",
+    "score": 100.0,
+    "severity": "low",
+    "detail": "0.0% of the T-zone shows shine."
+   }
+  ],
+  "zones": {
+   "forehead": 15.72,
+   "crows_feet_r": 5.69,
+   "crows_feet_l": 0.0,
+   "under_eye_r": 13.04,
+   "under_eye_l": 12.83,
+   "smile_r": 12.88,
+   "smile_l": 9.67
+  },
+  "tone": {
+   "ita": null,
+   "group": "unknown",
+   "advice": "Colour couldn't be read from this photo - use natural daylight without filters.",
+   "spread": 0.0,
+   "melanin_index": 17.9,
+   "white_balanced": true
+  },
+  "grades": {
+   "acne": "Clear",
+   "acne_lesions_worse_side": 0,
+   "pigmentation_mmasi": 0.0,
+   "dark_circles": 0
+  },
+  "note": "Estimated from your photo. Lighting, camera and makeup affect results - use soft, even light and a bare face."
+ },
+ "hair": {
+  "available": true,
+  "questionnaire": true,
+  "hairline": {
+   "stage": 2,
+   "label": "High hairline",
+   "score": 70,
+   "height_ratio": 1.24,
+   "temple_depth": -0.1,
+   "height_cm": 8.8,
+   "recession_cm": 0.0,
+   "detail": "Your hairline is about 8.8 cm above the brows (about 6.5 cm is typical) and your temples are level with the centre of the hairline. Sizes are estimated from your iris width, so treat them as approximate (about \u00b110%)."
+  },
+  "crown": null,
+  "score": 62,
+  "causes": [
+   {
+    "key": "pattern",
+    "title": "Pattern hair loss (androgenetic alopecia)",
+    "why": "Recession at the temples/crown plus a family history fits a genetic, hormone-driven pattern. It is slow and progressive, so starting early matters most.",
+    "actions": [
+     "See a dermatologist - topical minoxidil is the first-line, evidence-based option; prescription treatments are also available. Don't start or stop these without medical advice.",
+     "Take the same photos every 3 months to track it honestly."
+    ]
+   },
+   {
+    "key": "telogen",
+    "title": "Shock shedding (telogen effluvium)",
+    "why": "Heavy, all-over shedding 2-3 months after a recent fever or illness (dengue, typhoid, COVID) is very common and usually recovers by itself in 3-6 months once the trigger is gone. If it lasts longer than 6 months, see a doctor.",
+    "actions": [
+     "Eat enough protein (dal, paneer, eggs, curd) - about 1 g per kg of body weight a day.",
+     "Be gentle: no tight buns, heat styling or chemical treatments while it settles."
+    ]
+   },
+   {
+    "key": "nutrition",
+    "title": "Nutrient gaps (iron, vitamin D, vitamin B12)",
+    "why": "Low iron stores (ferritin) are the most consistent finding in Indian studies of chronic shedding, and vitamin D deficiency was found in ~80% of young Indians with hair fall. Vegetarian and vegan diets also raise the risk of low B12.",
+    "actions": [
+     "Get a blood test before taking supplements; take them only if you're low. Many hair specialists aim for ferritin above ~40 \u00b5g/L - discuss your result with your doctor.",
+     "Iron-rich foods: green leafy vegetables, chana, rajma, jaggery with vitamin C (amla, lemon)."
+    ]
+   },
+   {
+    "key": "thyroid",
+    "title": "Thyroid imbalance",
+    "why": "Both under- and over-active thyroid cause diffuse thinning and are common, especially in women.",
+    "actions": [
+     "A simple TSH blood test rules it out."
+    ]
+   },
+   {
+    "key": "scalp",
+    "title": "Dandruff / scalp inflammation",
+    "why": "An itchy, flaky scalp adds to shedding and gets worse in monsoon and winter.",
+    "actions": [
+     "Ketoconazole 2% shampoo twice a week - leave on for 5 minutes, then rinse.",
+     "Don't leave hair oil on overnight if you have dandruff; it feeds the yeast."
+    ]
+   }
+  ],
+  "tests": [
+   "CBC (haemoglobin)",
+   "Serum ferritin",
+   "TSH (thyroid)",
+   "Vitamin D (25-OH)",
+   "Vitamin B12"
+  ],
+  "see_doctor": false,
+  "doctor_reasons": [],
+  "myths": [
+   {
+    "name": "Oiling stops hair fall",
+    "verdict": "myth",
+    "why": "Oil conditions hair and reduces breakage, but it can't stop shedding from the root. Fine to use - just not overnight with dandruff."
+   },
+   {
+    "name": "Onion juice regrows hair",
+    "verdict": "myth",
+    "why": "One small study in patchy hair loss; no good evidence for common thinning, and it can irritate the scalp."
+   },
+   {
+    "name": "Washing hair often causes hair fall",
+    "verdict": "myth",
+    "why": "Hairs that come out in the shower had already shed. A clean scalp is healthier - wash as often as you need."
+   },
+   {
+    "name": "Rice water for growth",
+    "verdict": "okay",
+    "why": "May make hair feel smoother; no evidence it regrows hair. Rinse it out well."
+   },
+   {
+    "name": "Hard water causes hair fall",
+    "verdict": "okay",
+    "why": "It can make hair rough and break more, but it doesn't cause hair loss at the root. A shower filter or a good conditioner helps it feel softer."
+   },
+   {
+    "name": "Biotin gummies for everyone",
+    "verdict": "myth",
+    "why": "Only helps if you're actually deficient (rare), and high doses can upset thyroid blood tests."
+   },
+   {
+    "name": "Shaving the head makes hair thicker",
+    "verdict": "myth",
+    "why": "It doesn't change the follicles; regrowing hair just has a blunt tip that feels coarser."
+   }
+  ],
+  "plan": [
+   "Get these blood tests (about \u20b91,500-3,000 as a package at most labs): CBC (haemoglobin), Serum ferritin, TSH (thyroid), Vitamin D (25-OH), Vitamin B12.",
+   "Take a front and top-of-head photo in the same light every 3 months - it's the only honest way to track hair.",
+   "Gentle care: wide-tooth comb on wet hair, no tight hairstyles, minimal heat and chemical treatments."
+  ]
+ },
+ "style": {
+  "shape": "oval",
+  "label": "Oval",
+  "secondary": "oblong",
+  "confidence": 0.44,
+  "ratios": {
+   "length": 1.272,
+   "jaw": 0.826,
+   "forehead": 0.83,
+   "chin": 0.334
+  },
+  "summary": "Balanced length and width with a softly tapering jaw - the most versatile shape.",
+  "hairstyles": [
+   "Short textured crop or French crop",
+   "Buzz cut or skin fade",
+   "Avoid slicked-back styles that show the temples",
+   "Textured quiff or pompadour"
+  ],
+  "avoid": [
+   "Heavy fringes that hide your balanced proportions"
+  ],
+  "beard": [
+   "Short boxed beard",
+   "Light stubble (3-5 mm)",
+   "Classic full beard kept tidy at the cheeks"
+  ],
+  "glasses": [
+   "Most frames suit you - try wayfarers or rectangular frames slightly wider than your face"
+  ],
+  "notes": [
+   "Your temples show some recession, so we picked cuts that keep it low-key - shorter sides and texture on top look fuller than length.",
+   "Patchy beard? Give it 6-8 weeks of growth before judging; keep the neckline a finger-width above the Adam's apple and the cheek line natural or slightly lowered.",
+   "Your shape also leans oblong (long), so tips for that shape can work too."
+  ]
+ },
+ "remedies": [
+  {
+   "name": "Sugar or salt scrubs on the face",
+   "verdict": "harmful",
+   "why": "Sharp crystals cause micro-tears and dark marks. Use a gentle chemical exfoliant instead."
+  },
+  {
+   "name": "Steroid / 'fairness' creams from the chemist",
+   "verdict": "harmful",
+   "why": "Creams with clobetasol, betamethasone or mometasone thin the skin, cause steroid acne and rebound pigmentation. Only use under a dermatologist."
+  },
+  {
+   "name": "Multani mitti (fuller's earth) pack",
+   "verdict": "works",
+   "why": "Absorbs excess oil and temporarily tightens pores. Once a week for oily skin; skip it if your skin is dry or sensitive."
+  },
+  {
+   "name": "Aloe vera gel (pure)",
+   "verdict": "works",
+   "why": "Soothes and hydrates, helps after sun exposure. Patch-test first - some people react to it."
+  },
+  {
+   "name": "Besan + dahi (curd) ubtan",
+   "verdict": "okay",
+   "why": "Curd's lactic acid gently exfoliates and besan cleanses - fine once a week. Rub gently; scrubbing hard darkens skin."
+  },
+  {
+   "name": "Coconut oil as a face moisturiser",
+   "verdict": "okay",
+   "why": "Great for dry body skin and hair, but it clogs pores on acne-prone or oily faces."
+  },
+  {
+   "name": "Rose water as toner",
+   "verdict": "okay",
+   "why": "Pleasant and mildly soothing - fine to use, but it doesn't treat any concern on its own."
+  },
+  {
+   "name": "Drinking more water clears skin",
+   "verdict": "myth",
+   "why": "Staying hydrated is good for health, but beyond normal intake it doesn't clear acne or marks."
+  }
+ ],
+ "routine": {
+  "skin_type": "oily",
+  "tier": "budget",
+  "am": [
+   {
+    "time": "AM",
+    "step": "Cleanse",
+    "why": "Clears overnight oil without stripping.",
+    "how": "Daily",
+    "products": [
+     {
+      "name": "Minimalist Salicylic Acid + LHA 2% Cleanser",
+      "tier": "budget",
+      "price_band": "Under \u20b9400",
+      "swap": false,
+      "links": {
+       "nykaa": "https://www.nykaa.com/search/result/?q=Minimalist+Salicylic+Acid+%2B+LHA+2%25+Cleanser",
+       "amazon": "https://www.amazon.in/s?k=Minimalist+Salicylic+Acid+%2B+LHA+2%25+Cleanser"
+      }
+     }
+    ]
+   },
+   {
+    "time": "AM",
+    "step": "Balance",
+    "why": "Controls oil, refines pores and evens tone.",
+    "how": "Daily",
+    "products": [
+     {
+      "name": "The Derma Co 10% Niacinamide Serum",
+      "tier": "budget",
+      "price_band": "Under \u20b9400",
+      "swap": false,
+      "links": {
+       "nykaa": "https://www.nykaa.com/search/result/?q=The+Derma+Co+10%25+Niacinamide+Serum",
+       "amazon": "https://www.amazon.in/s?k=The+Derma+Co+10%25+Niacinamide+Serum"
+      }
+     }
+    ]
+   },
+   {
+    "time": "AM",
+    "step": "Moisturise",
+    "why": "Lightweight hydration for heat and humidity.",
+    "how": "Daily",
+    "products": [
+     {
+      "name": "Plum Green Tea Oil-Free Moisturizer",
+      "tier": "budget",
+      "price_band": "Under \u20b9400",
+      "swap": false,
+      "links": {
+       "nykaa": "https://www.nykaa.com/search/result/?q=Plum+Green+Tea+Oil-Free+Moisturizer",
+       "amazon": "https://www.amazon.in/s?k=Plum+Green+Tea+Oil-Free+Moisturizer"
+      }
+     }
+    ]
+   },
+   {
+    "time": "AM",
+    "step": "Sunscreen",
+    "why": "SPF 50, PA+++ or PA++++: the most important step for tan, marks and ageing in Indian sun. Use two finger-lengths for face and neck; reapply every 2-3 hours outdoors.",
+    "how": "Daily",
+    "products": [
+     {
+      "name": "Minimalist SPF 50 Sunscreen",
+      "tier": "budget",
+      "price_band": "Under \u20b9400",
+      "swap": false,
+      "links": {
+       "nykaa": "https://www.nykaa.com/search/result/?q=Minimalist+SPF+50+Sunscreen",
+       "amazon": "https://www.amazon.in/s?k=Minimalist+SPF+50+Sunscreen"
+      }
+     }
+    ]
+   }
+  ],
+  "pm": [
+   {
+    "time": "PM",
+    "step": "Cleanse",
+    "why": "Removes sunscreen, sweat and pollution.",
+    "how": "Daily (double-cleanse with oil or micellar water if you wore makeup)",
+    "products": [
+     {
+      "name": "Simple Refreshing Facial Wash",
+      "tier": "budget",
+      "price_band": "Under \u20b9400",
+      "swap": false,
+      "links": {
+       "nykaa": "https://www.nykaa.com/search/result/?q=Simple+Refreshing+Facial+Wash",
+       "amazon": "https://www.amazon.in/s?k=Simple+Refreshing+Facial+Wash"
+      }
+     }
+    ]
+   },
+   {
+    "time": "PM",
+    "step": "Renew",
+    "why": "Smooths texture and fine lines. Start slowly; never on the same night as acids.",
+    "how": "2-3 nights a week",
+    "products": [
+     {
+      "name": "Minimalist Retinol 0.3% Serum",
+      "tier": "budget",
+      "price_band": "Under \u20b9400",
+      "swap": false,
+      "links": {
+       "nykaa": "https://www.nykaa.com/search/result/?q=Minimalist+Retinol+0.3%25+Serum",
+       "amazon": "https://www.amazon.in/s?k=Minimalist+Retinol+0.3%25+Serum"
+      }
+     }
+    ]
+   },
+   {
+    "time": "PM",
+    "step": "Moisturise",
+    "why": "Repairs overnight.",
+    "how": "Daily",
+    "products": [
+     {
+      "name": "Plum Green Tea Oil-Free Moisturizer",
+      "tier": "budget",
+      "price_band": "Under \u20b9400",
+      "swap": false,
+      "links": {
+       "nykaa": "https://www.nykaa.com/search/result/?q=Plum+Green+Tea+Oil-Free+Moisturizer",
+       "amazon": "https://www.amazon.in/s?k=Plum+Green+Tea+Oil-Free+Moisturizer"
+      }
+     }
+    ]
+   }
+  ],
+  "notes": [
+   "Tuned for post-monsoon in Mumbai - this routine updates automatically when the season changes.",
+   "Introduce one new product every 1-2 weeks and patch-test behind the ear first.",
+   "If you use two actives, alternate nights instead of layering them."
+  ],
+  "disclaimer": "Price bands are approximate and change often - check before buying. We are brand-neutral; links may earn us a small commission at no cost to you."
+ },
+ "profile": {
+  "name": "T",
+  "age": "28",
+  "sex": "male",
+  "skin_type": "oily",
+  "budget": "\u20b9500\u20131,500/month",
+  "goals": [],
+  "city": "Mumbai",
+  "hair": {
+   "fall": "lot",
+   "duration": "months",
+   "pattern": [
+    "temples"
+   ],
+   "triggers": [
+    "illness"
+   ],
+   "family": true,
+   "dandruff": true,
+   "diet": "veg"
+  }
+ }
+}

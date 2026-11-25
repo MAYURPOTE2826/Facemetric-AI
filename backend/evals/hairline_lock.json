@@ -1,0 +1,25 @@
+{
+ "locked_on": "2026-11-06",
+ "reason": "Pre-validation baseline. Engine frozen after the readiness gate (one drawing-only overlay fix recorded in docs/HAIRLINE_VALIDATION_READINESS.md). No tuning before real human-labelled evidence exists.",
+ "files": {
+  "backend/app/hairline.py": "2ccffc04c9563fedbfeac61af9d61c5a2e78bb16495cd5085200521838585f60",
+  "backend/app/hair.py": "a82d1d0ef2141ae5ee608da254960d713b4f91f6570408d2970f2356ec023ade",
+  "docs/HAIRLINE_THRESHOLD_REGISTER.md": "8bbc268ec30be6aa3c7f9986923b83c42c417f1af01b33f95cfb07970c12e730"
+ },
+ "thresholds": {
+  "T_MILD": 0.06,
+  "T_POSSIBLE": 0.11,
+  "T_PRONOUNCED": 0.185,
+  "MIN_CONTRAST_DE": 18.0,
+  "NOISE_FLOOR_V": 0.03,
+  "CHANGE_V": 0.06,
+  "NOISE_FLOOR_DENSITY": 0.05,
+  "COLUMNS": [
+   25,
+   -0.5,
+   0.5
+  ],
+  "HEAD_BREADTH_MM": 145.0,
+  "ENGINE_VERSION": "hairline-engine-v1"
+ }
+}

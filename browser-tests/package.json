@@ -1,0 +1,13 @@
+{
+  "name": "facemetric-ai-browser-tests",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Real-browser verification of authorization, deletion, consent and logout behaviour. Isolated test stack; never touches real data.",
+  "scripts": {
+    "test": "playwright test",
+    "test:list": "playwright test --list"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}

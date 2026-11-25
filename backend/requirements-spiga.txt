@@ -1,0 +1,5 @@
+# Optional: SPIGA jaw landmarks (see app/jawline.py - licence review needed)
+--extra-index-url https://download.pytorch.org/whl/cpu
+spiga
+torch
+setuptools<81  # spiga imports pkg_resources

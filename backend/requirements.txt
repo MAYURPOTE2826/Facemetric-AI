@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+mediapipe
+opencv-python-headless
+numpy
+pydantic
+anthropic>=2.3
+python-dotenv
+onnxruntime
+stripe
+httpx
+cryptography
