@@ -1,3 +1,9 @@
+---
+title: Facemetric AI API
+sdk: docker
+app_port: 7860
+---
+
 # Facemetric AI
 
 **A guided facial-analysis prototype for skin, hair, measurements, and personalized care suggestions.**

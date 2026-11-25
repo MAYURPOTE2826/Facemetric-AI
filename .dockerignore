@@ -1,0 +1,11 @@
+.git
+**/.env
+**/.env.*
+!**/.env.example
+**/.secrets
+backend/data
+backend/models
+frontend/node_modules
+frontend/.next
+browser-tests/results
+browser-tests/test-results
